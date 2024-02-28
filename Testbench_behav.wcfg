@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Testbench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="501.000000 us"></ZoomEndTime>
+      <Cursor1Time time="105.050000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="242"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="42" />
+   <wvobject fp_name="/Testbench/otxactive" type="logic">
+      <obj_property name="ElementShortName">otxactive</obj_property>
+      <obj_property name="ObjectShortName">otxactive</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/otxserial" type="logic">
+      <obj_property name="ElementShortName">otxserial</obj_property>
+      <obj_property name="ObjectShortName">otxserial</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/preset_n" type="logic">
+      <obj_property name="ElementShortName">preset_n</obj_property>
+      <obj_property name="ObjectShortName">preset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/wr_data" type="array">
+      <obj_property name="ElementShortName">wr_data[47:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/fifo_data_frame" type="array">
+      <obj_property name="ElementShortName">fifo_data_frame[47:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_data_frame[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/fifo_w_en" type="logic">
+      <obj_property name="ElementShortName">fifo_w_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_w_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_master_0/inst/pclk" type="logic">
+      <obj_property name="ElementShortName">pclk</obj_property>
+      <obj_property name="ObjectShortName">pclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_master_0/inst/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_master_0/inst/ext_psel" type="array">
+      <obj_property name="ElementShortName">ext_psel[6:0]</obj_property>
+      <obj_property name="ObjectShortName">ext_psel[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_master_0/inst/ext_write" type="logic">
+      <obj_property name="ElementShortName">ext_write</obj_property>
+      <obj_property name="ObjectShortName">ext_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_master_0/inst/ext_addr" type="array">
+      <obj_property name="ElementShortName">ext_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ext_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_master_0/inst/pready" type="logic">
+      <obj_property name="ElementShortName">pready</obj_property>
+      <obj_property name="ObjectShortName">pready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_master_0/inst/slv_prdata" type="array">
+      <obj_property name="ElementShortName">slv_prdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_prdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_master_0/inst/slv_pwdata" type="array">
+      <obj_property name="ElementShortName">slv_pwdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_pwdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_master_0/inst/pstrobe" type="array">
+      <obj_property name="ElementShortName">pstrobe[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pstrobe[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_master_0/inst/psel" type="logic">
+      <obj_property name="ElementShortName">psel</obj_property>
+      <obj_property name="ObjectShortName">psel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_master_0/inst/penable" type="logic">
+      <obj_property name="ElementShortName">penable</obj_property>
+      <obj_property name="ObjectShortName">penable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_master_0/inst/pwrite" type="logic">
+      <obj_property name="ElementShortName">pwrite</obj_property>
+      <obj_property name="ObjectShortName">pwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_master_0/inst/pwdataa" type="array">
+      <obj_property name="ElementShortName">pwdataa[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pwdataa[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_master_0/inst/prdata" type="array">
+      <obj_property name="ElementShortName">prdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">prdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_master_0/inst/paddr" type="array">
+      <obj_property name="ElementShortName">paddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">paddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_master_0/inst/strobe" type="array">
+      <obj_property name="ElementShortName">strobe[1:0]</obj_property>
+      <obj_property name="ObjectShortName">strobe[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_master_0/inst/master_ready" type="logic">
+      <obj_property name="ElementShortName">master_ready</obj_property>
+      <obj_property name="ObjectShortName">master_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_slave_0/inst/pclk" type="logic">
+      <obj_property name="ElementShortName">pclk</obj_property>
+      <obj_property name="ObjectShortName">pclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_slave_0/inst/psel" type="logic">
+      <obj_property name="ElementShortName">psel</obj_property>
+      <obj_property name="ObjectShortName">psel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_slave_0/inst/penable" type="logic">
+      <obj_property name="ElementShortName">penable</obj_property>
+      <obj_property name="ObjectShortName">penable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_slave_0/inst/pwrite" type="logic">
+      <obj_property name="ElementShortName">pwrite</obj_property>
+      <obj_property name="ObjectShortName">pwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_slave_0/inst/paddr" type="array">
+      <obj_property name="ElementShortName">paddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">paddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_slave_0/inst/pwdata" type="array">
+      <obj_property name="ElementShortName">pwdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pwdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_slave_0/inst/p_strobe" type="array">
+      <obj_property name="ElementShortName">p_strobe[1:0]</obj_property>
+      <obj_property name="ObjectShortName">p_strobe[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_slave_0/inst/u_busy" type="logic">
+      <obj_property name="ElementShortName">u_busy</obj_property>
+      <obj_property name="ObjectShortName">u_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_slave_0/inst/pwdata_out" type="array">
+      <obj_property name="ElementShortName">pwdata_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pwdata_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_slave_0/inst/prdata_out" type="array">
+      <obj_property name="ElementShortName">prdata_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">prdata_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_slave_0/inst/dv" type="logic">
+      <obj_property name="ElementShortName">dv</obj_property>
+      <obj_property name="ObjectShortName">dv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_slave_0/inst/pready" type="logic">
+      <obj_property name="ElementShortName">pready</obj_property>
+      <obj_property name="ObjectShortName">pready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_slave_0/inst/pready_counter" type="array">
+      <obj_property name="ElementShortName">pready_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pready_counter[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_slave_0/inst/s_state" type="array">
+      <obj_property name="ElementShortName">s_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_slave_0/inst/data_latch" type="array">
+      <obj_property name="ElementShortName">data_latch[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_latch[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_slave_0/inst/temp" type="array">
+      <obj_property name="ElementShortName">temp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">temp[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/read_test_i/apb_master_0/inst/p_state" type="array">
+      <obj_property name="ElementShortName">p_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">p_state[1:0]</obj_property>
+   </wvobject>
+</wave_config>

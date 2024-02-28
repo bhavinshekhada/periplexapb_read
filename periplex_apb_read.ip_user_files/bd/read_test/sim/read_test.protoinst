@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"read_test": {
+			"proto_instances": {
+			}
+		}
+	}
+}

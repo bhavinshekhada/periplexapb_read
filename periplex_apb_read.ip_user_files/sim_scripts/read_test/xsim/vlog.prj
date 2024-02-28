@@ -1,0 +1,13 @@
+verilog xil_defaultlib  \
+"../../../bd/read_test/ip/read_test_Encodec_0_0/sim/read_test_Encodec_0_0.v" \
+"../../../bd/read_test/ip/read_test_apb_master_0_0/sim/read_test_apb_master_0_0.v" \
+"../../../bd/read_test/ip/read_test_apb_slave_0_0/sim/read_test_apb_slave_0_0.v" \
+"../../../bd/read_test/ip/read_test_ctrl_uart_0_0/sim/read_test_ctrl_uart_0_0.v" \
+"../../../bd/read_test/ip/read_test_uart_tx_0_0/sim/read_test_uart_tx_0_0.v" \
+"../../../bd/read_test/ip/read_test_FIFO_0_0/sim/read_test_FIFO_0_0.v" \
+"../../../bd/read_test/sim/read_test.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

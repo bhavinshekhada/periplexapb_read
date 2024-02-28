@@ -1,0 +1,57 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.567328",
+   "Default View_TopLeft":"-134,-120",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x 0 -y 240 -defaultsOSRD
+preplace port port-id_otxactive -pg 1 -lvl 5 -x 1710 -y 850 -defaultsOSRD
+preplace port port-id_otxserial -pg 1 -lvl 5 -x 1710 -y 880 -defaultsOSRD
+preplace port port-id_wr_en -pg 1 -lvl 0 -x 0 -y 680 -defaultsOSRD
+preplace port port-id_fifo_w_en -pg 1 -lvl 5 -x 1710 -y 540 -defaultsOSRD
+preplace portBus wr_data -pg 1 -lvl 0 -x 0 -y 710 -defaultsOSRD
+preplace portBus fifo_data_frame -pg 1 -lvl 5 -x 1710 -y 510 -defaultsOSRD
+preplace inst Encodec_0 -pg 1 -lvl 4 -x 1450 -y 450 -defaultsOSRD
+preplace inst apb_master_0 -pg 1 -lvl 3 -x 950 -y 140 -defaultsOSRD
+preplace inst apb_slave_0 -pg 1 -lvl 2 -x 560 -y 190 -defaultsOSRD
+preplace inst ctrl_uart_0 -pg 1 -lvl 1 -x 190 -y 280 -defaultsOSRD
+preplace inst uart_tx_0 -pg 1 -lvl 4 -x 1450 -y 880 -defaultsOSRD
+preplace inst FIFO_0 -pg 1 -lvl 3 -x 950 -y 700 -defaultsOSRD
+preplace netloc Encodec_0_fifo_data_frame 1 4 1 NJ 510
+preplace netloc Encodec_0_fifo_w_en 1 4 1 1690J 530n
+preplace netloc Encodec_0_o_addr 1 2 3 780 300 1170J 240 1630
+preplace netloc Encodec_0_o_data 1 2 3 800 280 1160J 250 1690
+preplace netloc Encodec_0_o_read_en 1 2 3 800 410 1230J 280 1660
+preplace netloc Encodec_0_o_slave_sel 1 2 3 770 310 1200J 300 1640
+preplace netloc Encodec_0_strobe 1 2 3 760 320 1240J 310 1620
+preplace netloc Encodec_0_valid 1 2 3 750 330 1210J 290 1650
+preplace netloc Encodec_0_write 1 2 3 790 290 1180J 270 1670
+preplace netloc FIFO_0_f_empty 1 3 1 1260 430n
+preplace netloc FIFO_0_rd_data 1 3 1 1270 450n
+preplace netloc apb_master_0_master_ready 1 3 1 1220 210n
+preplace netloc apb_master_0_paddr 1 1 3 390 360 NJ 360 1100
+preplace netloc apb_master_0_penable 1 1 3 410 340 NJ 340 1140
+preplace netloc apb_master_0_prdata 1 3 1 1250 150n
+preplace netloc apb_master_0_psel 1 1 3 400 350 NJ 350 1150
+preplace netloc apb_master_0_pwdataa 1 1 3 380 370 NJ 370 1120
+preplace netloc apb_master_0_pwrite 1 1 3 370 380 NJ 380 1130
+preplace netloc apb_master_0_strobe 1 0 4 30 380 360 390 NJ 390 1110
+preplace netloc apb_slave_0_dv 1 0 3 40 40 NJ 40 720
+preplace netloc apb_slave_0_prdata_out 1 2 1 N 180
+preplace netloc apb_slave_0_pready 1 2 1 730 160n
+preplace netloc apb_slave_0_pwdata_out 1 0 3 50 50 NJ 50 710
+preplace netloc clk_1 1 0 4 20 120 410 60 740 610 1280
+preplace netloc ctrl_uart_0_busy 1 1 1 N 260
+preplace netloc ctrl_uart_0_dv 1 1 3 340 590 NJ 590 1210J
+preplace netloc ctrl_uart_0_tx_data 1 1 3 330 600 NJ 600 1140J
+preplace netloc uart_tx_0_o_Tx_Active 1 4 1 1690J 850n
+preplace netloc uart_tx_0_o_Tx_Done 1 0 5 50 400 NJ 400 NJ 400 1190J 260 1680
+preplace netloc uart_tx_0_o_Tx_Serial 1 4 1 NJ 880
+preplace netloc wr_data_1 1 0 3 NJ 710 NJ 710 NJ
+preplace netloc wr_en_1 1 0 3 NJ 680 NJ 680 710J
+levelinfo -pg 1 0 190 560 950 1450 1710
+pagesize -pg 1 -db -bbox -sgen -140 0 1900 960
+"
+}
+0

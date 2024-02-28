@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../periplex_apb_read.srcs/sources_1/new/encodec.v" \
+"../../../../periplex_apb_read.srcs/sources_1/new/apbmaster.v" \
+"../../../../periplex_apb_read.srcs/sources_1/new/apbslave.v" \
+"../../../../periplex_apb_read.srcs/sources_1/new/ctrl_uart.v" \
+"../../../../periplex_apb_read.srcs/sources_1/new/uarttx.v" \
+"../../../../periplex_apb_read.srcs/sources_1/new/fifo.v" \
+"../../../../periplex_apb_read.ip_user_files/bd/read_test/ip/read_test_Encodec_0_0/sim/read_test_Encodec_0_0.v" \
+"../../../../periplex_apb_read.ip_user_files/bd/read_test/ip/read_test_apb_master_0_0/sim/read_test_apb_master_0_0.v" \
+"../../../../periplex_apb_read.ip_user_files/bd/read_test/ip/read_test_apb_slave_0_0/sim/read_test_apb_slave_0_0.v" \
+"../../../../periplex_apb_read.ip_user_files/bd/read_test/ip/read_test_ctrl_uart_0_0/sim/read_test_ctrl_uart_0_0.v" \
+"../../../../periplex_apb_read.ip_user_files/bd/read_test/ip/read_test_uart_tx_0_0/sim/read_test_uart_tx_0_0.v" \
+"../../../../periplex_apb_read.ip_user_files/bd/read_test/ip/read_test_FIFO_0_0/sim/read_test_FIFO_0_0.v" \
+"../../../../periplex_apb_read.ip_user_files/bd/read_test/sim/read_test.v" \
+"../../../../periplex_apb_read.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
